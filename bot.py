@@ -25,7 +25,7 @@ from langchain.prompts import PromptTemplate
 
 
 # ----------------- Telegram Bot Credentials ----------------- #
-TOKEN: Final = "7684522067:AAHk5vbK7cCkjCLICSrwNikOrKqjk79Psr4"
+TOKEN: Final = " __ "
 BOT_USERNAME: Final = "@hcdksbfckwsdcbot"  # (Optional) Not strictly required for basic usage
 
 # ----------------- OpenAI API Key ----------------- #
