@@ -7,8 +7,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # ----------------- Telegram Bot Credentials ----------------- #
-TOKEN: Final = "7684522067:AAHk5vbK7cCkjCLICSrwNikOrKqjk79Psr4"
-BOT_USERNAME: Final = "@hcdksbfckwsdcbot"  # (Optional)
+TOKEN: Final = "7634853763:AAHi4v0QsMAqW-tIQ5HSeGlSxAjIDA_nLck"
+BOT_USERNAME: Final = "@DaxAsiaBot"  # (Optional)
 
 # ----------------- OpenAI API Key ----------------- #
 # Retrieve the API key from the environment variable
