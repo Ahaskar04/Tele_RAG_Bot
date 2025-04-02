@@ -18,12 +18,13 @@ if not openai_api_key:
 openai.api_key = openai_api_key
 
 # ----------------- LangChain RAG Setup ----------------- #
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
+
 
 # 1. Load the PDF file
 pdf_path = "info.pdf"  # Ensure info.pdf is in the same directory as this script
